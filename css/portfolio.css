@@ -1,0 +1,21 @@
+/*Global styles*/
+
+.list {
+  display: none;
+}
+
+.show-list {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+/*Mobile and tablet styles*/
+@media only screen and (max-width: 834px) {
+}
+
+/*Desktop styles*/
+@media only screen and (min-width: 835px) {
+}

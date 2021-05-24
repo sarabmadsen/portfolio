@@ -1,0 +1,138 @@
+/*Global styles*/
+
+.logo,
+h1,
+h2,
+h3 {
+  font-family: "komet-sc", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+body {
+  background-color: #232616;
+  padding: 0;
+  margin: 0;
+  color: #c4ad9f;
+  font-family: "Century Gothic", sans-serif;
+}
+
+a {
+  color: #c4ad9f;
+}
+
+header a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  padding: 1.5rem;
+}
+
+.current {
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+}
+
+i {
+  margin-left: 1.5rem;
+}
+
+main {
+  margin: 2rem;
+}
+
+main img {
+  max-width: 400px;
+  max-height: 400px;
+  width: 100%;
+}
+
+main p {
+  max-width: 500px;
+}
+
+/*Mobile and tablet styles*/
+@media only screen and (max-width: 834px) {
+  .logo a {
+    font-size: 3rem;
+  }
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  li {
+    font-size: 1rem;
+  }
+  footer {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  i {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+/*Desktop styles*/
+@media only screen and (min-width: 835px) {
+  .logo a {
+    font-size: 3.5rem;
+    margin: 2rem;
+    margin-right: 4rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  i {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  i:hover {
+    color: #6f96a6;
+  }
+  li {
+    font-size: 1.5rem;
+  }
+  li a:hover {
+    text-decoration: underline;
+  }
+  footer {
+    margin: 2rem;
+  }
+  main img {
+    margin-left: 3rem;
+  }
+  main a:hover {
+    color: #6f96a6;
+  }
+}
