@@ -18,4 +18,8 @@ main {
   main {
     justify-content: center;
   }
+  footer {
+    position: absolute;
+    bottom: -20px;
+  }
 }

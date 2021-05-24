@@ -12,10 +12,54 @@
   display: none;
 }
 
+button {
+  display: block;
+  border: #6f96a6 solid 2px;
+  background-color: #232616;
+  color: #c4ad9f;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  margin-left: 0;
+}
+
+.textbox {
+  padding: 0.5rem;
+  width: 500px;
+}
+
+.flex {
+  display: flex;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main img {
+  max-width: 300px;
+  max-height: 294.938px;
+  margin-bottom: 1rem;
+}
+
+main li {
+  font-size: 1rem;
+  padding: 0.5rem;
+  list-style-type: disc;
+}
+
+main ul {
+  padding-left: 2rem;
+}
+
 /*Mobile and tablet styles*/
 @media only screen and (max-width: 834px) {
 }
 
 /*Desktop styles*/
 @media only screen and (min-width: 835px) {
+  .flex {
+    justify-content: center;
+  }
 }
